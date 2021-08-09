@@ -47,3 +47,12 @@ var reverseWords = function(s) {
     }
     return arr.join(' ').trim()
 };
+
+`或使用自带reverse方法反转`
+
+var reverseWords = function(s) {
+    let temp = s.split(' ')
+    temp = temp.filter(i => i!=='')
+    let arr = temp.reverse()
+    return arr.join(' ').trim()
+};
