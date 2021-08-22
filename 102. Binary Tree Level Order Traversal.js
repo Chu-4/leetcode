@@ -57,3 +57,8 @@ var levelOrder = function(root) {
     }
     return res
 };
+
+/* 前中后序遍历：递归
+深搜=前序：栈
+广搜：队列
+*/
